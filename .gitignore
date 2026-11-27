@@ -1,0 +1,200 @@
+# ==========================================
+# General / OS / Environments / Logs
+# ==========================================
+.DS_Store
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.log
+
+# ==========================================
+# Editor / IDE
+# ==========================================
+# JetBrains (IntelliJ, GoLand, PyCharm, etc.)
+# See: https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+.idea/
+
+# Visual Studio Code
+# See: https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+.vscode/
+tempCodeRunnerFile.py
+
+# ==========================================
+# Go (Golang)
+# ==========================================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.html
+coverage.txt
+coverage.xml
+*.coverprofile
+profile.cov
+
+# Dependency directories (uncomment to ignore)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# ==========================================
+# Python
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+*.cover
+*.py.cover
+*.lcov
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django / Flask / Scrapy
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-wal
+db.sqlite3-shm
+instance/
+.webassets-cache
+.scrapy
+
+# Documentation & Builders
+docs/_build/
+.pybuilder/
+target/
+/site
+
+# Jupyter / IPython / Marimo / Streamlit
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+.streamlit/secrets.toml
+
+# Package & Environment Managers (pyenv, pipenv, uv, poetry, pdm, pixi, conda)
+# .python-version
+# Pipfile.lock
+# uv.lock
+# poetry.lock
+# poetry.toml
+# pdm.lock
+# pdm.toml
+.pdm-python
+.pdm-build/
+# pixi.lock
+.pixi/*
+!.pixi/config.toml
+__pypackages__/
+conda-meta/
+
+# Brokers / Databases / Queues
+celerybeat-schedule*
+celerybeat.pid
+*.rdb
+*.aof
+*.pid
+mnesia/
+rabbitmq/
+rabbitmq-data/
+activemq-data/
+
+# Linters / Type checkers / Cython / Tools
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+cython_debug/
+*.sage.py
+.spyderproject
+.spyproject
+.ropeproject
+.abstra/
+.pypirc
+
+# ==========================================
+# Java
+# ==========================================
+# Compiled class file
+*.class
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
